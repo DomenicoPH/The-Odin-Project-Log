@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>TOPL - Preguntas</title>
+  </head>
+  <body>
+    <div id="header"></div>
+    <script>
+      fetch("header.html")
+        .then((response) => response.text())
+        .then((data) => {
+          document.getElementById("header").innerHTML = data;
+        });
+    </script>
+    <main class="container">
+      <h2>Preguntas</h2>
+
+      <div>
+        <div>
+          <h3>¿Qué es un servidor web?</h3>
+          <p>
+            Un software o computadora que almacena y entrega páginas web a los
+            navegadores.
+          </p>
+        </div>
+
+        <div>
+          <h3>¿Qué es una network (red)?</h3>
+          <p>
+            Un conjunto de dispositivos conectados que pueden intercambiar
+            información.
+          </p>
+        </div>
+
+        <div>
+          <h3>¿Qué es Internet?</h3>
+          <p>Una red mundial de redes conectadas entre sí.</p>
+        </div>
+
+        <div>
+          <h3>¿Qué es una dirección IP?</h3>
+          <p>
+            Un identificador único que permite localizar un dispositivo en una
+            red.
+          </p>
+        </div>
+
+        <div>
+          <h3>¿Qué es un router?</h3>
+          <p>Un dispositivo que dirige el tráfico de datos entre redes.</p>
+        </div>
+
+        <div>
+          <h3>¿Qué es un ISP?</h3>
+          <p>
+            Un proveedor de servicios de Internet (por ejemplo, Movistar o
+            Claro).
+          </p>
+        </div>
+
+        <div>
+          <h3>¿Qué son los packets y cómo se usan para transferir datos?</h3>
+          <p>
+            Son pequeños bloques de información. Los datos se dividen en
+            paquetes, se envían por la red y se reconstruyen al llegar al
+            destino.
+          </p>
+        </div>
+
+        <div>
+          <h3>¿Qué es un cliente?</h3>
+          <p>
+            Un programa o dispositivo que solicita servicios o datos a un
+            servidor.
+          </p>
+        </div>
+
+        <div>
+          <h3>¿Qué es un servidor?</h3>
+          <p>
+            Un programa o dispositivo que proporciona servicios o datos a los
+            clientes.
+          </p>
+        </div>
+
+        <div>
+          <h3>¿Qué es una página web?</h3>
+          <p>Un documento accesible mediante un navegador.</p>
+        </div>
+
+        <div>
+          <h3>¿Qué es un buscador web?</h3>
+          <p>
+            Un sitio web que permite buscar información en Internet (ej.:
+            Google).
+          </p>
+        </div>
+
+        <div>
+          <h3>¿Qué es un motor de búsqueda?</h3>
+          <p>
+            El sistema que indexa y encuentra páginas web para responder
+            búsquedas.
+          </p>
+        </div>
+
+        <div>
+          <h3>¿Qué es una petición DNS?</h3>
+          <p>
+            Una consulta para convertir un nombre de dominio (ej. google.com) en
+            una dirección IP.
+          </p>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
