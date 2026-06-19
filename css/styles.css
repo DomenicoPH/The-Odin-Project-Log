@@ -2,6 +2,12 @@ a {
     text-decoration: none;
     color: rgb(0 0 0);
 }
+a:hover{
+    color: coral;
+}
+ul{
+    list-style-type: square;
+}
 
 /**/
 
@@ -57,4 +63,9 @@ a {
             border-bottom: 1px solid rgb(0 0 0 / 0.2);
         }
     }
+}
+
+.link-item{
+    padding: 10px;
+    border-bottom: 1px solid rgba(0 0 0 / 0.2);
 }
