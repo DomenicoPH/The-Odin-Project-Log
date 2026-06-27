@@ -1,3 +1,6 @@
+body{
+    font-family: Roboto, sans-serif;
+}
 a {
     text-decoration: none;
     color: rgb(0 0 0);
@@ -65,11 +68,21 @@ ul{
     }
 }
 
+
+/* Enlaces */
 .links-block{
     background-color: rgba(241, 236, 216, 0.5);
     border-radius: 10px;
     padding: 10px;
     margin-bottom: 10px;
+}
+
+.links-title{
+    padding: 0 20px;
+    font-weight: 100;
+    font-size: 20px;
+    opacity: 0.2;
+    text-align: start;
 }
 
 .link-item{
