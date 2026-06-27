@@ -65,6 +65,13 @@ ul{
     }
 }
 
+.links-block{
+    background-color: rgba(241, 236, 216, 0.5);
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
 .link-item{
     padding: 10px;
     border-bottom: 1px solid rgba(0 0 0 / 0.2);
