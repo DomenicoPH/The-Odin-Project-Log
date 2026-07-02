@@ -6,7 +6,7 @@ a {
     color: rgb(0 0 0);
 }
 a:hover{
-    color: coral;
+    color: rgb(0 0 0 / 0.7);
 }
 ul{
     list-style-type: square;
@@ -76,10 +76,10 @@ ul{
 
 /* Enlaces */
 .links-block{
-    background-color: rgba(241, 236, 216, 0.5);
+    border: 1px solid rgba(241, 236, 216, 1);
     border-radius: 10px;
     padding: 10px;
-    margin-bottom: 10px;
+    margin: 10px;
 }
 
 .links-title{
