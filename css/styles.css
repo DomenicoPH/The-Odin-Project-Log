@@ -88,6 +88,10 @@ ul{
     opacity: 0.8;
 }
 
+.links-main-title{
+    padding: 10px;
+}
+
 .links-block{
     border: 1px solid rgba(241, 236, 216, 1);
     border-radius: 10px;
