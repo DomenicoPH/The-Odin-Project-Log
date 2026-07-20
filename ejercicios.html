@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/normalize.css" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <title>TOPL - Ejercicios</title>
+</head>
+<body>
+
+  <div id="header"></div>
+  <script>
+    fetch("header.html")
+      .then((response) => response.text())
+      .then((data) => {
+        document.getElementById("header").innerHTML = data;
+      });
+  </script>
+
+  <main class="container">
+    <div class="ejercicios-container">
+
+        <div class="ejercicio">
+          <h2>Flexbox Responsive Form</h2>
+          <a href="./ejercicios/flexbox-layouts/flexbox-responsive-form/index.html">Ver Ejercicio</a>
+        </div>
+
+        <div class="ejercicio">
+          <h2>Nuevo</h2>
+          <a href="#">Ver Ejercicio</a>
+        </div>
+
+        <div class="ejercicio">
+          <h2>Nuevo</h2>
+          <a href="#">Ver Ejercicio</a>
+        </div>
+
+    </div>
+  </main>
+
+</body>
+</html>

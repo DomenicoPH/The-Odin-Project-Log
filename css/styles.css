@@ -118,3 +118,33 @@ ul{
     margin-left: 8px;
     font-style: italic;
 }
+
+
+/* Ejercicios */
+
+.ejercicios-container{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 40px;
+}
+
+.ejercicio{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid rgb(0 0 0 / 0.2);
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px 0;
+    background-color: rgb(255 255 255);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    width: 250px;
+    transition: all 0.3s ease;
+}
+.ejercicio:hover{
+    background-color: rgb(200 200 200 / 0.5);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transform: translateY(-2px);
+    transition: all 0.3s ease;
+}
