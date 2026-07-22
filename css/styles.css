@@ -110,6 +110,10 @@ ul{
 .link-item{
     padding: 10px;
     border-bottom: 1px solid rgba(0 0 0 / 0.2);
+
+    &:hover{
+        background-color: rgba(0, 0, 0, 0.1);
+    }
 }
 
 .link-tag{
