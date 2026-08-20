@@ -205,7 +205,17 @@ ul{
 
 .ejercicios-container{
     display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
+    gap: 10px;
+    margin-top: 40px;
+}
+
+.category{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
     gap: 10px;
     margin-top: 40px;
 }
@@ -217,15 +227,30 @@ ul{
     border: 1px solid rgb(0 0 0 / 0.2);
     border-radius: 8px;
     padding: 20px;
-    margin: 10px 0;
     background-color: rgb(255 255 255);
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
     width: 250px;
     transition: all 0.3s ease;
+
+    h2{
+        border-bottom: 1px solid rgb(0 0 0 / 0.1);
+        padding-bottom: 10px;
+    }
+
+    a{
+        background-color: rgba(0 0 0 / 0.6);
+        color: white;
+        padding: 5px 10px;
+        border-radius: 2px;
+
+        &:hover{
+            background-color: rgba(0 0 0 / 0.8);
+        }
+    }
 }
 .ejercicio:hover{
-    background-color: rgb(200 200 200 / 0.5);
+    background-color: rgb(200 200 200 / 0.1);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transform: translateY(-2px);
+    transform: translateY(-1px);
     transition: all 0.3s ease;
 }
